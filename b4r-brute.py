@@ -17,7 +17,7 @@ def runntek(s):
                 sys.stdout.flush()
                 time.sleep(10. / 100)
 
-if sys.platform == "linux" or sys.platform == "linux2":
+if sys.platform == "linux" or sys.platform == "linux2":if
      GL = "\033[96;1m" # Blue aqua
      BB = "\033[34;1m" # Blue light
      YY = "\033[33;1m" # Yellow light
@@ -60,7 +60,7 @@ def cover():
 
 cover()
 
-email = str(raw_input(WW+" Introduzca la ID del objetivo\033[33;1m: "))
+email = str(raw_input(WW+" Introduzca la ID del objetivo\033[33;1m:@xjosex.cuevas"))
 
 passwordlist = str(raw_input(WW+"Ingrese el archivo de Contraseñas\033[95m[ pass.txt ] \033[92;1m: "))
 
