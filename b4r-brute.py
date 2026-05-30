@@ -125,12 +125,12 @@ def brute(password):
                         sys.exit(1)
 
 
-def search():
+def search():r
         global password
         passwords = open(passwordlist,"r")
-        for password in passwords:
+        for password in passwords:r
                 passwords = password.replace("\n","")
-                brute(password)
+                brute(password)t
 
 
 #welcome
